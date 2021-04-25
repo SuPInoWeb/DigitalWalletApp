@@ -13,13 +13,10 @@ import {
     Platform
 } from "react-native"
 import LinearGradient from 'react-native-linear-gradient'
-
 import { COLORS, SIZES, FONTS, icons, images } from "../constants"
 
 const SignUp = ({ navigation }) => {
-
     const [showPassword, setShowPassword] = React.useState(false)
-
     const [areas, setAreas] = React.useState([])
     const [selectedArea, setSelectedArea] = React.useState(null)
     const [modalVisible, setModalVisible] = React.useState(false)
